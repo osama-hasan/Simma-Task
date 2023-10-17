@@ -1,0 +1,57 @@
+# macOS
+.DS_Store
+
+# Xcode
+build/
+DerivedData/
+/*.xcodeproj
+!/*.xcodeproj/project.pbxproj
+/*.xcworkspace
+/*.xcuserdatad
+/*.xcuserdata
+
+# Swift Package Manager
+.build/
+.swiftpm/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+/Carthage/Build/
+/Carthage/Checkouts/
+
+# IDE (e.g., IntelliJ)
+.idea/
+
+# Compiled source
+*.o
+*.lo
+*.la
+*.lai
+*.class
+*.swp
+
+# Generated files
+*.hmap
+*.dSYM/
+
+# User-specific Xcode settings
+*.xcuserstate
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Swift Package Manager (SPM) Packages
+Packages/
+Package.pins
+
+## App packaging
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## User settings
+xcuserdata/
